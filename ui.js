@@ -64,7 +64,7 @@ showAlert(message, className) {
     container.insertBefore(div, search);
 
     setTimeout(() => {
-    this.clearAlert();
+        this.clearAlert();
     }, 3000);
 }
 
@@ -72,11 +72,11 @@ clearAlert() {
     const currentAlert = document.querySelector('.alert');
 
     if(currentAlert){
-    currentAlert.remove();
+        currentAlert.remove();
     }
 }
 
 clearProfile() {
-    this.profile.innerHTML = '';
+        this.profile.innerHTML = '';
     }
 }
